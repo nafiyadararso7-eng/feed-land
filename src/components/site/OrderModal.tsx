@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { X, Check, CheckCircle2 } from "lucide-react";
-import { PRODUCTS } from "./products";
+import { PRODUCTS } from "./productsData";
 
 type Step = "product" | "details" | "success";
 

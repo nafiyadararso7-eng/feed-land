@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Reveal } from "./Reveal";
-import { PRODUCTS } from "./products";
+import { PRODUCTS } from "./productsData";
 
 export function Products({ onOrder }: { onOrder: (productId?: string) => void }) {
   return (
